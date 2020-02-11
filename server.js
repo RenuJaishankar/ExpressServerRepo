@@ -13,6 +13,7 @@ app.get('/index',(req,res) => res.sendFile('index.html', {root:__dirname}))
 //app.get('/data',(req,res) => res.json({fruit:'Apple',amount:100}))
 
 //app.get('/data') is a  API end point
-app.get('/data',(req,res) => res.json(apples))
+app.get('/fruits/type',(req,res) => res.json(fruits))
+//app.get('/data',(req,res) => res.json(apples))
 app.use(express.static('./')) // because style sheets are added
 app.listen(port, () => console.log(`Example port on ${port}`))
