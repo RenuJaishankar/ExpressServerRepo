@@ -1,0 +1,25 @@
+{
+  "name": "expresshomework",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000F\u0000e\u0000b\u00001\u00000\u0000t\u0000h\u0000E\u0000x\u0000p\u0000r\u0000e\u0000s\u0000s\u0000R\u0000e\u0000p\u0000o\u0000\r\u0000 \u0000",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenuJaishankar/Feb10thExpressRepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RenuJaishankar/Feb10thExpressRepo/issues"
+  },
+  "homepage": "https://github.com/RenuJaishankar/Feb10thExpressRepo#readme"
+}
