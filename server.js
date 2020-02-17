@@ -47,7 +47,7 @@ app.post('/', function (req, res) {
     let name = req.body.name;
     apples.push({ name: `${name}` })
     // this sends back the value of name as a res 
-    res.send(name)
+    //res.send(name)
 })
 
 
